@@ -4,9 +4,9 @@ import axios from "axios";
 
 import * as actionTypes from '../constants/productConstant'
 
-//const URL = 'http://localhost:8000';
+// const URL = 'http://localhost:8000';
 
-const URL = 'https://mybazzarapi.onrender.com/';
+const URL = 'https://mybazzarapi.onrender.com';
 
 export const getProducts = () => async(dispatch) => {
     try {

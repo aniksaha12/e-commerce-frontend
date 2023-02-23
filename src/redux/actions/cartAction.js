@@ -5,8 +5,8 @@ import axios from 'axios';
 
 import * as  actionType from '../constants/cartConstant';
 
-//const URL = 'http://localhost:8000';
-const URL = 'https://mybazzarapi.onrender.com/';
+// const URL = 'http://localhost:8000'
+const URL = 'https://mybazzarapi.onrender.com';
 
 export const addToCart =(id, quantity) =>async(dispatch) => {
     try {
